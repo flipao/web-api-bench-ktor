@@ -8,10 +8,7 @@ import io.ktor.server.netty.*
 
 class App {
   fun start(args: Array<String>) {
-    embeddedServer(
-      Netty,
-      commandLineEnvironment(args)
-    ).start(wait = true)
+    embeddedServer(Netty, commandLineEnvironment(args)).start(wait = true)
   }
 }
 

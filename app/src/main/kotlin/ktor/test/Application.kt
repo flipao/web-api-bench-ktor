@@ -7,9 +7,7 @@ import io.ktor.routing.*
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
 fun Application.module() {
-
-}
-fun Application.main() {
+  println("Application module")
   routing {
     get ("/") {
       call.respondText("Hello, world!")
