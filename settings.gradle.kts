@@ -7,5 +7,5 @@
  * in the user manual at https://docs.gradle.org/6.8.3/userguide/multi_project_builds.html
  */
 
-rootProject.name = "ktor-test"
+rootProject.name = "web-api-bench-ktor"
 include("app")
